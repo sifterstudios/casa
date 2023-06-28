@@ -17,7 +17,7 @@
 
   /** @type {import('@svelteness/kit-docs').NavbarConfig} */
   const navbar = {
-    links: [{ title: 'Documentation', slug: '/docs', match: /\/docs/ }],
+    links: [{ title: 'Documentation', slug: '/docs', match: /\/docs/ }, { title: 'Documentation', slug: '/docs', match: /\/docs/ }],
   };
 
   const { activeCategory } = createSidebarContext(sidebar);
