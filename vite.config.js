@@ -5,6 +5,9 @@ import kitDocs from '@svelteness/kit-docs/node';
 /** @type {import('vite').UserConfig} */
 const config = {
   plugins: [icons({ compiler: 'svelte' }), kitDocs(), sveltekit()],
+  build: {
+    outDir: 'dist',
+  }
 };
 
 export default config;
