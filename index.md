@@ -3,24 +3,16 @@
 layout: home
 
 hero:
-  name: "casa"
-  text: "Velkommen hjem!"
-  tagline: Praktisk informasjon for Airbnb-venner!
+  name: "linje-casa"
+  text: "Velkommen!"
+  tagline: Please choose an appropriate language!
   actions:
     - theme: brand
-      text: Informasjon
-      link: /informasjon
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Norsk versjon
+      link: /no/info/
+    - theme: brand
+      text: English version
+      link: /en/info/
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /markdown-examples
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
