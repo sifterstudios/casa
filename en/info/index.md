@@ -1,49 +1,12 @@
 ---
 outline: deep
+title: Information
+lastUpdated: false
+editLink: false
 ---
 
-# Runtime API Examples
+# {{ $frontmatter.title }}
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+Welcome to the hub of information for linje-casa. If you're on a computer, there's a sidebar on the left side with a Table of Contents, and if you're on a mobile device theres an icon you can click on to get the same list. Alternatively you can click `Next Page` at the bottom of each page to progress. You can also search by hitting 
+`Ctrl + K` on a computer, or the magnifying glass on mobile. Good luck! :100:
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
-
-```md
-<script setup>
-import { useData } from 'vitepress'
-
-const { theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
