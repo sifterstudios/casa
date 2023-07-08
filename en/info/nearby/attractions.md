@@ -1,6 +1,6 @@
 ---
 outline: deep
-title: Arrival
+title: Attractions
 lastUpdated: false
 editLink: false
 ---
